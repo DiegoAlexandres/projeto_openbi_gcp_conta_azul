@@ -2,7 +2,7 @@ import pandas as pd
 from src.api import get_dados_api
 
 def extrair_categorias(token):
-    print("   -> 🔎 Buscando Categorias (Receitas e Despesas)...")
+    print("Buscando Categorias (Receitas e Despesas)")
     
     tipos_conta = ["expenses", "revenues"]
     dfs = []
